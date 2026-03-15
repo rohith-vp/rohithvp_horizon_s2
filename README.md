@@ -10,7 +10,7 @@ This repository contains my solutions for the Software Team recruitment tasks.
 
 ### Directory Structure
 
-* **[Level 1](./level-1-task/)**: Rover Distance Calculation
+* **[Level 1](./level-1-task/)**: Rover Distance and Time Calculation
     * `part-a.py`: Calculates distance the rover travels when travelling from (x1, y1) to (x2, y2)
     * `part-b.py`: Added calculation for time taken and motion parameters initial velocity, acceleration and top speed
     * `part-c.py`: Added error handling
