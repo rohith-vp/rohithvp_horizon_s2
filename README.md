@@ -14,7 +14,9 @@ This repository contains my solutions for the Software Team recruitment tasks.
     * `part-a.py`: Calculates distance the rover travels when travelling from (x1, y1) to (x2, y2)
     * `part-b.py`: Added calculation for time taken and motion parameters initial velocity, acceleration and top speed
     * `part-c.py`: Added error handling
-* **[Level 2](./level-2-task/)**:  
+* **[Level 2](./level-2-task/)**: Arduino Simulation using TinkerCad
+    * `arduino_servo_potentiometer.ino:` Arduino code for TinkerCad simulation  
+    * `tinkercad.mp4:` Video showing TinkerCad simulation
 * **[Level 3](./level-3-task/)**:  
 
 ## How to Run
