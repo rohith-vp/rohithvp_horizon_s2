@@ -23,7 +23,7 @@ def distance_calculate():
     # ROund the floatingpoint
     d = round(d, 2)
 
-    print(f"Distance the rover must travel: {d} units")
+    print(f"Distance to destination: {d} m")
 
 
 # Run only if program is run directly, for modularity

@@ -1,6 +1,8 @@
 # Author : Rohith V P
-# Program for calculating didstance and total time taken by rover
+# Program for calculating distance total time taken by rover
 # when going from (x1,y1) to (x2, y2)
+# Error handing: negative top speed and negative acceleration not possible
+
 
 from math import sqrt
 
@@ -22,6 +24,14 @@ def calculate_time_taken():
     except ValueError:
         # If user enters an invalid character
         print("Invalid value entered")
+        return
+
+    # Rover cannot have negative acc or top speed
+    if max_speed < 0:
+        print("Negative top speed not possible")
+        return
+    if acc < 0:
+        print("Negative acceleration not possible")
         return
 
     # Calculate distance using distance formula
