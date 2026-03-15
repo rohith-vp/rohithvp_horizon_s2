@@ -21,4 +21,4 @@ This repository contains my solutions for the Software Team recruitment tasks.
 Detailed instructions for running each specific task can be found in the README files within their respective directories.
 
 ## Contact
-If there are any issues with the simulations or code execution, please reach out via the contact details provided in my application.
+If there are any issues with my code execution, please reach out via the contact details provided in my application.
