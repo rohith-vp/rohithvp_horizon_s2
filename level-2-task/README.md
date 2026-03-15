@@ -2,7 +2,7 @@
 
 ### Project Overview
 
-This task involves designing and simulating an embedded system using an Arduino Uno. The goal is to control the rotational angle of a servo motor using a potentiometer, while implementing a software-defined safety "governor" to prevent mechanical over-extension.
+This task involves connecting a servo motor and poteniometer to an arduino uno, and controlling the servo motor with the potentiometer, while restricting the servo motor to 68 degrees.
 
 ### Files
 
