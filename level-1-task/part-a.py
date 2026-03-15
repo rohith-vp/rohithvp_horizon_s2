@@ -16,7 +16,7 @@ def distance_calculate():
     except ValueError:
         # If user enters an invalid character
         print("Invalid value entered")
-        exit()
+        return
 
     # Calculate distance using distance formula
     d = sqrt((x2 - x1)**2 + (y2 - y1)**2)
