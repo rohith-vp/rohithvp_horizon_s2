@@ -8,10 +8,12 @@ from std_msgs.msg import String
 class SubscriberNode(Node):
     def __init__(self):
         super().__init__("subscriber_node")
+        # Subscribe to topic /distance
         self.subscription = self.create_subscription(String, "distance", self.callback, 10)
 
 
     def callback(self, msg):
+        # Print the received distance value to terminal
         self.get_logger().info(f"Received Distance: {msg.data}")
 
 
