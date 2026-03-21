@@ -18,6 +18,8 @@ This repository contains my solutions for the Software Team recruitment tasks.
     * `arduino_servo_potentiometer.ino:` Arduino code for TinkerCad simulation  
     * `tinkercad.mp4:` Video showing TinkerCad simulation
 * **[Level 3](./level-3-task/)**: Simple Communication between two nodes using ROS2
+    * `source_code:` Source code for communication nodes
+    * `video.mp4:` Video showing ROS2 setup on Ubuntu 22.04 and execution of nodes
 
 ## How to Run
 Detailed instructions for running each specific task can be found in the README files within their respective directories.
